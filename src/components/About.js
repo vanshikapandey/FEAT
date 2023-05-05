@@ -5,7 +5,7 @@ import rectangle from "../assets/Diagonal-Rect.png";
 import aboutUsImg from "../assets/About-img.png";
 import timeline from "../assets/timeline.png";
 import Team from "../components/Team";
-import certi from "../assets/Certificate.png";
+import certi from "../assets/Certificate.svg";
 
 export default function About() {
   return (
@@ -117,7 +117,7 @@ export default function About() {
           <div className="gray-box-5">Event-5</div>
         </div>
       </div>
-      <Team />
+      {/* <Team /> */}
       <Footer />
     </div>
   );

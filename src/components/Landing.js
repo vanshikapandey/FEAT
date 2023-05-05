@@ -1,7 +1,7 @@
-import illustration from "../assets/Illustration.png";
-import emoji from "../assets/Emoji.png";
-import book from "../assets/Book.png";
-import certi from "../assets/Certificate.png";
+import illustration from "../assets/Illustration.svg";
+import emoji from "../assets/Emoji.svg";
+import certi from "../assets/Certificate.svg";
+import book from "../assets/Book.svg";
 import React from "react";
 
 export default function Landing() {

@@ -8,6 +8,9 @@
   
     
   }
+  p{
+    text-align: justify;
+  }
   a{
     text-decoration: none;
   }
@@ -19,11 +22,12 @@
       position: fixed;
       top:0;
       padding: 0.5rem 0rem;
-      background-color: white;
+      background-color: #030229;
       color: rgb(255, 255, 255);
+      /* color:#081858 */
       font-family: 'Montserrat', sans-serif;
       box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
-      z-index: 3;
+      z-index: 4;
       
       
   }
@@ -85,8 +89,10 @@
     }
     .hamburger:hover {
       background-color: #2642af;
+     
     }
-
+   
+     
     .landing-section{
       display: flex;
     }
@@ -220,8 +226,8 @@
     }
   .square-1 img{
     position: absolute;
-  width: 471px;
-  height: 314px;
+  width: 460px;
+  height: 335px;
   left: 919px;
   top: 281px;
   z-index: 2;
@@ -244,7 +250,7 @@
   width: 50px;
   height: 50px;
   left: 1360px;
-  top: 560px;
+  top: 580px;
   z-index: 3;
   border-radius: 50%;
   background-color: white;
@@ -257,7 +263,7 @@
   height: 50px;
   left: 1100px;
   top: 670px;
-  z-index: 3;
+  z-index: 2;
   border-radius: 50%;
   background-color: white;
   padding:1vh;
@@ -301,7 +307,7 @@
     }
     
     .whatWeDo{
-      margin-top:5rem ;
+      margin-top:50vh ;
       display: flex;
       font-family: 'Montserrat', sans-serif;
       align-items: center;
@@ -342,12 +348,13 @@
     text-align: center;
     }
     .courses{
-      margin-top: 10rem;
+      margin-top: 7rem;
       font-family: 'Montserrat', sans-serif;
       font-style: italic;
     }
     .courses .courses-border{
-      background-image: linear-gradient(to right, #EE7B77,#030229 );
+      
+      background-image: linear-gradient(to right, #EE7B77,#F4CA76 );
       width: 8rem;
       border-radius: 25px;
       height: 0.8rem;
@@ -357,6 +364,7 @@
       text-align: left;
       font-weight: 700;
       font-style: italic;
+      color: #081858;
     }
     .courses .course-cards{
       display: flex;
@@ -369,11 +377,12 @@
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     .courses .course-cards h4{
-      font-weight: 700;
-      color: #FFFFFF;
+      font-weight: 800;
+      color: #081858;
       margin-top: 3rem;
+      font-size: 26px;
 
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
     }
     .courses .course-cards img{
       height: 40vh;
@@ -397,7 +406,7 @@
     .features{
       margin-top: 5rem;
       font-family: 'Montserrat', sans-serif;
-      background-color:#030229;
+      background-color:#081858;
       border-radius: 20px;
       color: #FFFFFF;
     }
@@ -426,6 +435,7 @@
     }
     .features .feature-cards p{
       font-size: 14px;
+      text-align: center;
     }
     .testimonials{
       margin: 25vh 0 5vh 0 ;
@@ -561,10 +571,10 @@
     #content {
       padding-top: 6px;
       padding-left: 3vh;
-      
+      font-weight: 600;
       padding-right: 3vh;
       line-height: 25px;
-      font-family: 'Dancing Script', cursive;
+      font-family: 'Kalam', cursive;
       font-size: 14px;
       letter-spacing: 0.5px;
       word-spacing: 4px;
@@ -583,29 +593,44 @@
     }
  
   .row {
-  display: -ms-flexbox; 
+    display: -ms-flexbox; /* IE10 */
   display: flex;
-  -ms-flex-wrap: wrap; 
+  -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding: 0 4px;
-  padding: 10vh;
+  padding: 5vh 4px;
+  margin: 10vh;
+  overflow-y: scroll;
+  max-height: 600px;
+  
+}
+
+
+.row::-webkit-scrollbar {
+  width: 15px;
+ 
+}
+
+.row::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #ffd145,#f8635e );
+}
+
+
+.row::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(to bottom, #ffd1459a,#f8635e52 );
 }
 
 
  .column {
-  -ms-flex: 25%; 
+  -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
-  padding: 0 8px;
-}
-button{
-  cursor: pointer;;
+  padding: 0 4px;
+
 }
 
 .column img {
-  height:100px;
-  width:200px;
-  margin-top: 20px;
+  margin-top: 8px;
   vertical-align: middle;
   width: 100%;
   border-radius: 10px;
@@ -629,6 +654,7 @@ button{
    label{
     padding: 2vh;
    }
+   
  
     .contact-form{
       background-color: #030229;
@@ -636,10 +662,10 @@ button{
       height: 110vh;
       display: flex;
       margin-top: 20vh;
+     
+    
     }
-    .contact-form input{
-      color: white;
-    }
+    
     .contact-form .img-1{
       text-align: left;
       position: relative;
@@ -659,7 +685,9 @@ button{
     .contact-form .contact-text h3{
       font-weight: 900;
     }
-
+    input, select, textarea{
+      color: #ff0000;
+  }
     .contact-form .contact-img1{
       position: absolute;
       z-index: 1;
@@ -695,31 +723,33 @@ button{
     
     }
 
-    .contact-form .form-details{
-      float: right;
-      margin-top: 10vh;
+    .form-details{
+      /* float: right; */
+      margin-top: 0vh;
+     
     }
 
-    .contact-form .form-details form label{
+    .form-details form label{
       float: left;
       color: #B4B4B4;
       padding-bottom:2vh;
     }
-    .contact-form .form-details form input{
+    .form-details form input{
+      background-color: #030229;
+      border-radius: 10px;
+      color: #D75B5F;
+    }
+  .form-details form select{
       background-color: #030229;
       border-radius: 10px;
     }
-    .contact-form .form-details form select{
-      background-color: #030229;
-      border-radius: 10px;
-    }
-    .contact-form .form-details .form-group{
+  .form-details .form-group{
 
       margin-bottom:3vh ;
       
     }
 
-    .contact-form .form-details button{
+    .form-details button{
       background-color: #D75B5F;
       padding:0.5rem 2rem;
       color: #ffffff;
@@ -737,8 +767,8 @@ button{
       
     }
     .aboutUs .head-text .aboutUs-para{
-      margin-left: 40vh;
-      margin-top: 15vh;
+      margin-left: 45vh;
+      margin-top: 10vh;
       z-index:3;
       position: absolute;
     }
@@ -753,7 +783,7 @@ button{
       
     }
     .aboutUs .head-text #gradient{
-      margin-top: 10vh;
+      margin-top: 30vh;
       font-weight: 700;
       /* text-align: center; */
     }
@@ -918,7 +948,7 @@ button{
       position: absolute;
       height: 400px;
       width: 300px;
-      background-color: #030229;
+      background-color: #081858;
       top:0px;
       left:50px;
       z-index: 2;
@@ -948,7 +978,7 @@ button{
       position: absolute;
       height: 400px;
       width: 300px;
-      background-color: #030229;
+      background-color: #081858;
       top:0px;
       right:50px;
       z-index: 2;
@@ -958,7 +988,7 @@ button{
         margin-left: 10vh;
     }
     .timeline{
-      margin: 10vh 0;
+      margin: 0vh 0 50vh 0;
       display: flex;
       justify-content:center;
       margin-left: -150vh;
@@ -984,7 +1014,7 @@ button{
     }
     .timeline .timeline-img img{
       height: 1100px;
-      width: 60px;
+      width: 40px;
       
     }
     .timeline .timeline-img .gray-box-1{
@@ -1300,6 +1330,7 @@ button{
       margin: 2rem auto;
     }
     footer{
+      
       background-color: #030229;
       color: white;
       font-family: 'Montserrat', sans-serif;
@@ -1350,6 +1381,7 @@ button{
     .footer-column .contacts p{
       line-height: 10px;
       font-size: 15px;
+      text-align: right;
     }
 
     .logo-col h3{
@@ -1432,6 +1464,7 @@ text-align: center;
       .hamburger {
         display: block;
       }
+      
       .navigation-menu ul {
           display: none;
           position: absolute;
@@ -1439,7 +1472,7 @@ text-align: center;
           left: 0;
           flex-direction: column;
           width: 100%;
-          height: calc(45vh - 77px);
+          height: 50vh;
           background-color: #030229;
           border-top: 1px solid black;
           color: white;
@@ -1459,6 +1492,9 @@ text-align: center;
         }
         .navigation-menu.expanded ul {
           display: block;
+        }
+        .landing-section{
+          margin-top: 10vh;
         }
         .landing-section .head-text{
           margin: 5rem 0 0 0;
@@ -1483,17 +1519,7 @@ text-align: center;
           
         }
 
-        .t1 img{
-          top: 0px;
-          z-index: 3  ;
-          left:300px;
-          height: 80px;
-          width: 80px;
-        }
-        .t1 i{
-          display: none;
-        }
-        
+       
         .team-card .parent{
           margin-bottom: 20vh;
         }
@@ -1505,6 +1531,9 @@ text-align: center;
         #ourstory{
           margin-top: 4rem;
         }
+        #oustory h1{
+          padding-bottom: 8vh;
+        }
         
         #ourstory .ourstory-text{
           position: absolute;
@@ -1512,6 +1541,7 @@ text-align: center;
         }
         #ourstory .whatWeDo-img h1{
           text-align: center;
+          margin-bottom: 10vh;
         }
         
         #ourstory .whatWeDo-img .borderU{
@@ -1584,6 +1614,17 @@ text-align: center;
           margin-left: 0;
           /* margin-bottom: 10vh; */
         }
+        .t1 img{
+          top: 60px;
+          z-index: 3  ;
+          left:150px;
+          height: 120px;
+          width: 120px;
+        }
+        .t1 i{
+          display: none;
+        }
+       
         
         .t1 , .t2{
           width: 90%;
@@ -1595,9 +1636,10 @@ text-align: center;
           top:20;
         }
         #paper{
-          width: 330px;
-          height: 400px;
+          width: 300px;
+          height: 520px;
           margin: 2vh;
+          padding-top: 20vh;
         
         }
         .t1 .quotes{
@@ -1721,6 +1763,7 @@ text-align: center;
       }
       .timeline .timeline-img{
         margin:0 auto;
+        width: 30px;
       }
       .team{
         margin-top: 140vh;

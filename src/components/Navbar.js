@@ -2,7 +2,7 @@ import "../styles.css";
 import { useState } from "react";
 import React from "react";
 import $ from "jquery";
-// import { Link } from "react-router";
+import Modal from "../components/Modal";
 import { Link } from "react-router-dom";
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -56,7 +56,7 @@ export default function Navbar() {
             <Link to="/coursespage">Courses</Link>
           </li>
           <li>
-            <a href="/">Contact Us</a>
+            <Modal />
           </li>
         </ul>
       </div>

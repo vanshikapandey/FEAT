@@ -1,6 +1,7 @@
 import React from "react";
 import Carousels from "./Carousels";
 import Grid from "./Grid";
+import Modal from "../components/Modal";
 export default function() {
   return (
     <div className="testimonials courses">
@@ -10,15 +11,17 @@ export default function() {
           <h1>Testimonials</h1>
         </div>
       </div>
-      <div>
-        <Carousels />
-      </div>
+
       <div className="bg container-fluid">
         <h3>
           Ready to unlock your potential? Read our students' reviews and join
           our success stories!
         </h3>
         <Grid />
+      </div>
+
+      <div>
+        <Carousels />
       </div>
     </div>
   );

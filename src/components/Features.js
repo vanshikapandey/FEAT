@@ -1,8 +1,8 @@
-import feature1 from "../assets/feature-1.png";
-import feature2 from "../assets/feature-2.png";
-import feature3 from "../assets/feature-3.png";
-import feature4 from "../assets/feature-4.png";
-import feature5 from "../assets/feature-5.png";
+import feature1 from "../assets/feature-1.svg";
+import feature2 from "../assets/feature-2.svg";
+import feature3 from "../assets/feature-3.svg";
+import feature4 from "../assets/feature-4.svg";
+import feature5 from "../assets/feature-5.svg";
 import React from "react";
 
 export default function() {

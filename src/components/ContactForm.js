@@ -5,6 +5,7 @@ import React, { forwardRef, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Snackbar, Alert, AlertProps } from "@mui/material";
 import { useState } from "react";
+import Form from "./FormSubmission";
 
 export default function() {
   const [email, setEmail] = useState("");
@@ -21,6 +22,7 @@ export default function() {
       setError(true);
       return;
     } else {
+      setError(false);
       emailjs
         .sendForm(
           "service_6mzncsu",
@@ -56,7 +58,7 @@ export default function() {
       <div className="col-md-6 form-heading">
         <h3>We are just a click away.</h3>{" "}
         <h3>Unlock your potential and achieve</h3> <h3>Success with us.</h3>
-        <div className="form-details col-md-8 container">
+        {/* <div className="form-details col-md-8 container">
           <form ref={form} onSubmit={handleSubmit}>
             <div className="form-group">
               <label for="inputEmail">Email address</label>
@@ -134,10 +136,12 @@ export default function() {
                 onClick={() => {
                   setOpen(true);
 
-                  setTimeout(() => {
-                    window.location.reload(false);
-                    // window.scrollTo(0, 0);
-                  }, 3000);
+                  if (error) {
+                    setTimeout(() => {
+                      window.location.reload(false);
+                      // window.scrollTo(0, 0);
+                    }, 3000);
+                  }
                 }}
               >
                 Submit
@@ -146,19 +150,24 @@ export default function() {
           </form>
         </div>
         <div>
-          <Snackbar
-            open={open}
-            autoHideDuration={4000}
-            onClose={(event, reason) => {
-              setOpen(false);
-            }}
-            message="Form Submitted Successfully"
-          >
-            <Alert severity="success" sx={{ width: "100%" }}>
-              Form Submitted Successfully!
-            </Alert>
-          </Snackbar>
-        </div>
+          {!error ? (
+            <Snackbar
+              open={open}
+              autoHideDuration={4000}
+              onClose={(event, reason) => {
+                setOpen(false);
+              }}
+              message="Form Submitted Successfully"
+            >
+              <Alert severity="success" sx={{ width: "100%" }}>
+                Form Submitted Successfully!
+              </Alert>
+            </Snackbar>
+          ) : (
+            ""
+          )}
+        </div> */}
+        <Form />
       </div>
     </div>
   );

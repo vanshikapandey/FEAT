@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import React from "react";
 import rectangle from "../assets/Diagonal-Rect.png";
 import aboutUsImg from "../assets/About-img.png";
-import certi from "../assets/Certificate.png";
+import certi from "../assets/Certificate.svg";
 import courses from "../assets/Courses.png";
 
 export default function CoursesPage() {

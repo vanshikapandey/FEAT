@@ -1,5 +1,7 @@
 import React from "react";
 import squares from "../assets/Squares.png";
+import { Link } from "react-router-dom";
+import Modal from "../components/Modal";
 export default function Footer() {
   return (
     <footer>
@@ -60,16 +62,17 @@ export default function Footer() {
                 <a href="#">Utility Pages</a>
               </li>
               <li>
-                <a href="#">Home</a>
+                {" "}
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="#">About</a>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a href="#">Courses</a>
+                <Link to="/coursespage">Courses</Link>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <Modal />
               </li>
             </ul>
           </div>

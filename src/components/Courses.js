@@ -15,15 +15,15 @@ export default function Courses() {
           >
             <h4>Foundation Courses</h4>
             <img src={foundation} alt="" />
-            <button style={{ backgroundColor: "#030229" }}>Know More</button>
+            <button style={{ backgroundColor: "#081858" }}>Know More</button>
           </div>
           <div
             className="card col-md-4 col-sm-12"
-            style={{ backgroundColor: "#030229" }}
+            style={{ backgroundColor: "#F4CA76" }}
           >
             <h4>Online Courses</h4>
             <img src={online} alt="" />
-            <button>Know More</button>
+            <button style={{ backgroundColor: "#081858" }}>Know More</button>
           </div>
         </div>
       </div>
