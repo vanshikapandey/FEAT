@@ -10,9 +10,9 @@ export default function Navbar() {
     $(window).scroll(function() {
       var scroll = $(window).scrollTop();
       if (scroll > 100) {
-        $(".navigation").css("background", "#030229c6");
+        $(".navigation").css("background", "#ffffff");
       } else {
-        $(".navigation").css("background", "#030229");
+        $(".navigation").css("background", "#ffffff");
       }
     });
   });

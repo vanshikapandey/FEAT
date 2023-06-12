@@ -1,5 +1,5 @@
-import foundation from "../assets/Foundation-img.png";
-import online from "../assets/OnlineCourses-img.png";
+import foundation from "../assets/Offline classes.svg";
+import online from "../assets/Online classes.svg";
 import React from "react";
 
 export default function Courses() {
@@ -15,15 +15,15 @@ export default function Courses() {
           >
             <h4>Foundation Courses</h4>
             <img src={foundation} alt="" />
-            <button style={{ backgroundColor: "#081858" }}>Know More</button>
+            <button style={{ backgroundColor: "#F4CA76" }}>Know More</button>
           </div>
           <div
             className="card col-md-4 col-sm-12"
-            style={{ backgroundColor: "#F4CA76" }}
+            style={{ backgroundColor: "#EE7B77" }}
           >
             <h4>Online Courses</h4>
             <img src={online} alt="" />
-            <button style={{ backgroundColor: "#081858" }}>Know More</button>
+            <button style={{ backgroundColor: "#F4CA76" }}>Know More</button>
           </div>
         </div>
       </div>

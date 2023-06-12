@@ -15,7 +15,7 @@ export default function Home() {
       <Navbar />
       <Landing />
       {/* <OurStory /> */}
-      <WhatWeDo />
+      {/* <WhatWeDo /> */}
       <Courses />
       <Features />
       <Testimonials />

@@ -1,4 +1,4 @@
-import whatwedo from "../assets/whatwedo.png";
+// import whatwedo from "../assets/whatwedo.png";
 import React from "react";
 export default function() {
   return (
@@ -17,7 +17,7 @@ export default function() {
       </div>
       {/* <div className="col-md-1"></div> */}
       <div className="col-md-4 col-sm-12 whatWeDo-img">
-        <img src={whatwedo} alt="" />
+        {/* <img src={whatwedo} alt="" /> */}
         <div className="borderU"></div>
         <h1>What we do?</h1>
       </div>

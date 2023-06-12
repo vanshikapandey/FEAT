@@ -1,10 +1,11 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import React from "react";
-import rectangle from "../assets/Diagonal-Rect.png";
+import Form from "./FormSubmission";
 import aboutUsImg from "../assets/About-img.png";
 import certi from "../assets/Certificate.svg";
-import courses from "../assets/Courses.png";
+import ContactForm from "./ContactForm";
+// import courses from "../assets/Courses.png";
 
 export default function CoursesPage() {
   return (
@@ -52,65 +53,274 @@ export default function CoursesPage() {
         <div className="courses-section-head">
           <h3>Engage With The Best Experience Program</h3>
         </div>
-        <div className="container blocks">
-          <div className="block1">
-            <div className="yellow-circle col-md-6 col-sm-12"></div>
-            <div className="yellow-circle-para">
-              <p>Foundation Courses (Class VIII-X)</p>
+        <div className="course-box">
+          <h4>Foundation Course</h4>
+          <div className="card-head">
+            <div className="headers">
+              <div style={{ display: "flex", justifyContent: "left" }}>
+                <i class="fa-solid fa-book-open-reader"></i>
+                <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
+                  <small>
+                    For
+                    <br />
+                    Class 11 students
+                  </small>
+                </div>
+              </div>
             </div>
-            <div className="courses-para col-md-6 col-sm-12">
-              <p>Number of Days : 6 days in a week.</p>
-              <p> Subjects: Mathematics, Science, SST and English.</p>
-              <p> Number of classes per day: 4</p>{" "}
-              <p>Total Class Duration: 3 hours</p>{" "}
-              <p>Class duration of each class: 45 minutes</p>
-              <p>Practice sessions in classrooms: 6</p>
-              <p> Number of Tests: 3 tests per week</p>
-              <p> Timing for summer: 3:00- 6:00 PM </p>
+            <div className="headers">
+              <div style={{ display: "flex", justifyContent: "left" }}>
+                <i class="fa-solid fa-award"></i>
+                <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
+                  <small>
+                    For
+                    <br />
+                    Class 11 students
+                  </small>
+                </div>
+              </div>
             </div>
-          </div>
-          <div className="block1 fl">
-            <div className=" left-para col-md-6 col-sm-12">
-              <p>Number of Days : 7 days in a week.</p>
-              <p>Number of classes per week: 3</p>{" "}
-              <p>Practice sessions under invigilation: 3</p>
-              <p> Class Duration: 4 hours</p>{" "}
-              <p> Test: 1 + 1 (CBSE & IIT-JEE/NEET) </p>
-              <p> Timing: 2:30-6:30 PM </p>
-            </div>
-            <div className="yellow-circle right-circle col-md-6 col-sm-12">
-              <div className="yellow-circle-para-right">
-                <p>1-Year Program (Class XI-CBSE, IIT-JEE and NEET)</p>
+            <div className="headers">
+              <div style={{ display: "flex", justifyContent: "left" }}>
+                <i class="fa-solid fa-file-pdf"></i>
+                <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
+                  <small>
+                    For
+                    <br />
+                    <a href="./src/BD J.D.pdf" download>
+                      Download Course Details
+                    </a>
+                  </small>
+                </div>
               </div>
             </div>
           </div>
-          <div className="block1 nfl">
-            <div className="yellow-circle col-md-6 col-sm-12"></div>
-            <div className="yellow-circle-para">
-              <p>1-Year Program (Class XI-CBSE, IIT-JEE and NEET)</p>
+
+          <hr className="solid" />
+          <div className="course-info">
+            <div>
+              <h6>
+                {" "}
+                <i class="fa-solid fa-stopwatch"></i>Frequency
+              </h6>
+              <ul>
+                <li>3-4 days a week for weekdays</li>
+
+                <li>2 days a week for weekends: Saturday & Sunday</li>
+
+                <br />
+              </ul>
             </div>
-            <div className="courses-para col-md-6 col-sm-12">
-              <p>Number of Days : 7 days in a week.</p>
-              <p>Number of classes per week: 3</p>{" "}
-              <p>Practice sessions under invigilation: 3</p>
-              <p> Class Duration: 4 hours</p>{" "}
-              <p> Test: 1 + 1 (CBSE & IIT-JEE/NEET) </p>
-              <p> Timing: 2:30-6:30 PM </p>
+            <div>
+              <h6>
+                {" "}
+                <i class="fa-solid fa-calendar-days"></i>Frequency
+              </h6>
+              <ul>
+                <li>3-4 days a week for weekdays</li>
+
+                <li>2 days a week for weekends: Saturday & Sunday</li>
+
+                <br />
+              </ul>
+            </div>
+            <div>
+              <h6>
+                {" "}
+                <i class="fa-solid fa-calendar-days"></i>Frequency
+              </h6>
+              <ul>
+                <li>3-4 days a week for weekdays</li>
+
+                <li>2 days a week for weekends: Saturday & Sunday</li>
+
+                <br />
+              </ul>
             </div>
           </div>
-          <div className="block1">
-            <div className="yellow-circle col-md-6 col-sm-12"></div>
-            <div className="yellow-circle-para">
-              <p>2-Year Program (Class XII-CBSE, IIT-JEE and NEET)</p>
+          <div className="course-buttons">
+            <button>Request a call back</button>
+            <button>Find Center Location</button>
+          </div>
+        </div>
+        <div className="course-box">
+          <h4>Foundation Course</h4>
+          <div className="card-head">
+            <div className="headers">
+              <div style={{ display: "flex", justifyContent: "left" }}>
+                <i class="fa-solid fa-book-open-reader"></i>
+                <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
+                  <small>
+                    For
+                    <br />
+                    Class 11 students
+                  </small>
+                </div>
+              </div>
             </div>
-            <div className="courses-para col-md-6 col-sm-12">
-              <p>Number of Days : 7 days in a week.</p>
-              <p>Number of classes per week: 3</p>{" "}
-              <p>Practice sessions under invigilation: 3</p>
-              <p> Class Duration: 4 hours</p>{" "}
-              <p> Test: 1 + 1 (CBSE & IIT-JEE/NEET) </p>
-              <p> Timing: 2:30-6:30 PM </p>
+            <div className="headers">
+              <div style={{ display: "flex", justifyContent: "left" }}>
+                <i class="fa-solid fa-award"></i>
+                <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
+                  <small>
+                    For
+                    <br />
+                    Class 11 students
+                  </small>
+                </div>
+              </div>
             </div>
+            <div className="headers">
+              <div style={{ display: "flex", justifyContent: "left" }}>
+                <i class="fa-solid fa-file-pdf"></i>
+                <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
+                  <small>
+                    For
+                    <br />
+                    <a href="src/BD J.D.pdf" download>
+                      Download Course Details
+                    </a>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr className="solid" />
+          <div className="course-info">
+            <div>
+              <h6>
+                {" "}
+                <i class="fa-solid fa-stopwatch"></i>Frequency
+              </h6>
+              <ul>
+                <li>3-4 days a week for weekdays</li>
+
+                <li>2 days a week for weekends: Saturday & Sunday</li>
+
+                <br />
+              </ul>
+            </div>
+            <div>
+              <h6>
+                {" "}
+                <i class="fa-solid fa-calendar-days"></i>Frequency
+              </h6>
+              <ul>
+                <li>3-4 days a week for weekdays</li>
+
+                <li>2 days a week for weekends: Saturday & Sunday</li>
+
+                <br />
+              </ul>
+            </div>
+            <div>
+              <h6>
+                {" "}
+                <i class="fa-solid fa-calendar-days"></i>Frequency
+              </h6>
+              <ul>
+                <li>3-4 days a week for weekdays</li>
+
+                <li>2 days a week for weekends: Saturday & Sunday</li>
+
+                <br />
+              </ul>
+            </div>
+          </div>
+          <div className="course-buttons">
+            <button>Request a call back</button>
+            <button>Find Center Location</button>
+          </div>
+        </div>
+        <div className="course-box">
+          <h4>Foundation Course</h4>
+          <div className="card-head">
+            <div className="headers">
+              <div style={{ display: "flex", justifyContent: "left" }}>
+                <i class="fa-solid fa-book-open-reader"></i>
+                <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
+                  <small>
+                    For
+                    <br />
+                    Class 11 students
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div className="headers">
+              <div style={{ display: "flex", justifyContent: "left" }}>
+                <i class="fa-solid fa-award"></i>
+                <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
+                  <small>
+                    For
+                    <br />
+                    Class 11 students
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div className="headers">
+              <div style={{ display: "flex", justifyContent: "left" }}>
+                <i class="fa-solid fa-file-pdf"></i>
+                <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
+                  <small>
+                    For
+                    <br />
+                    <a href="./src/BD J.D.pdf" download>
+                      Download Course Details
+                    </a>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr className="solid" />
+          <div className="course-info">
+            <div>
+              <h6>
+                {" "}
+                <i class="fa-solid fa-stopwatch"></i>Frequency
+              </h6>
+              <ul>
+                <li>3-4 days a week for weekdays</li>
+
+                <li>2 days a week for weekends: Saturday & Sunday</li>
+
+                <br />
+              </ul>
+            </div>
+            <div>
+              <h6>
+                {" "}
+                <i class="fa-solid fa-calendar-days"></i>Frequency
+              </h6>
+              <ul>
+                <li>3-4 days a week for weekdays</li>
+
+                <li>2 days a week for weekends: Saturday & Sunday</li>
+
+                <br />
+              </ul>
+            </div>
+            <div>
+              <h6>
+                {" "}
+                <i class="fa-solid fa-calendar-days"></i>Frequency
+              </h6>
+              <ul>
+                <li>3-4 days a week for weekdays</li>
+
+                <li>2 days a week for weekends: Saturday & Sunday</li>
+
+                <br />
+              </ul>
+            </div>
+          </div>
+          <div className="course-buttons">
+            <button>Request a call back</button>
+            <button>Find Center Location</button>
           </div>
         </div>
       </div>
@@ -123,7 +333,7 @@ export default function CoursesPage() {
 
         <div className="container feature-block">
           <h3>Features</h3>
-          <img src={courses} />
+          {/* <img src={courses} /> */}
           <p>ONLY ONLINE CLASSROOM WITH REAL ONE-TO-ONE INTERACTION</p>
           <p>CLASSROOM WILL NOT HAVE MORE THAN 4 STUDENTS.</p>
           <p>GET YOURSELF PERSONAL MENTORS</p>
@@ -134,6 +344,22 @@ export default function CoursesPage() {
           <button>ENROLL NOW</button>
         </div>
       </div>
+      <div className="talkFeature">
+        <h2>Talk to our expert</h2>
+        <button>
+          <a href="tel:8882192787">
+            <i class="fa-solid fa-phone"></i>Call now for free
+          </a>
+        </button>
+        <br />
+        <span>or</span>
+
+        <h4>Request call back</h4>
+
+        <i className="fa-solid fa-arrow-down arrow"></i>
+      </div>
+      <ContactForm />
+
       <Footer />
     </div>
   );

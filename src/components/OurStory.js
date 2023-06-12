@@ -1,11 +1,11 @@
-import ourstory from "../assets/OurStory.png";
+// import ourstory from "../assets/OurStory.png";
 import React from "react";
 export default function() {
   return (
     <div id="ourstory" className="whatWeDo">
       {/* <div className="col-md-1"></div> */}
       <div className="col-md-4 col-sm-12 whatWeDo-img">
-        <img src={ourstory} alt="" />
+        {/* <img src={ourstory} alt="" /> */}
         <div className="borderU"></div>
         <h1>Our Story</h1>
       </div>

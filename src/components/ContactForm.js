@@ -1,6 +1,5 @@
 import wave from "../assets/Wave.png";
-import contactImg1 from "../assets/contact-form-img1.png";
-import contactImg2 from "../assets/contact-form-img2.png";
+import contactUs from "../assets/Contact Us.svg";
 import React, { forwardRef, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Snackbar, Alert, AlertProps } from "@mui/material";
@@ -49,10 +48,7 @@ export default function() {
           <h3>Ready to start your Journey towards success?</h3>
         </div>
         <div className="contact-img1">
-          <img src={contactImg1} />
-        </div>
-        <div className="contact-img2">
-          <img src={contactImg2} />
+          <img src={contactUs} />
         </div>
       </div>
       <div className="col-md-6 form-heading">

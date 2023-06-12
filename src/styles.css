@@ -1,9 +1,9 @@
 
   *{
     overflow-x: clip;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     padding: 0;
-  
+    font-family: 'Raleway', sans-serif;
       box-sizing: border-box;
   
     
@@ -22,25 +22,25 @@
       position: fixed;
       top:0;
       padding: 0.5rem 0rem;
-      background-color: #030229;
-      color: rgb(255, 255, 255);
-      /* color:#081858 */
+      /* background-color: #ffffff; */
+      /* color: rgb(0, 0, 0); */
+      color:#081858;
       font-family: 'Montserrat', sans-serif;
       box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
       z-index: 4;
       
       
   }
-
+/* 
   .blue{
     background-color: #030229c6;
-  }
+  } */
  
   .brand-name{
       text-decoration: none;
-      color: rgb(255, 255, 255);
+      color: #081858;
       font-size: 35px;
-      line-height: 43px;
+      line-height: 40px;
       font-weight: 800;
       margin-left: 2.5rem;
   }
@@ -62,10 +62,10 @@
       text-decoration: none;
       display: block;
       width: 100%;
-      font-weight: 600;
+      font-weight: 700;
       font-size: 20px;
-      line-height: 30px;
-      color: rgb(255, 255, 255);
+      line-height: 40px;
+      color: #081858;
       
   }
 
@@ -348,7 +348,7 @@
     text-align: center;
     }
     .courses{
-      margin-top: 7rem;
+      margin-top: 20rem;
       font-family: 'Montserrat', sans-serif;
       font-style: italic;
     }
@@ -378,21 +378,21 @@
     }
     .courses .course-cards h4{
       font-weight: 800;
-      color: #081858;
+      color: #ffffff;
       margin-top: 3rem;
       font-size: 26px;
 
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
     }
     .courses .course-cards img{
-      height: 40vh;
-      width: 30vh;
-      margin: 0 auto;
+      height: 50vh;
+      width: 55vh;
+      margin: 0vh auto;
     }
     .courses .course-cards button{
       background-color: #EE7B77;
       padding:0.5rem 2rem;
-      color: #ffffff;
+      color: #030229;
       border: none;
       font-weight: 700;
       font-size: 16px;
@@ -406,9 +406,9 @@
     .features{
       margin-top: 5rem;
       font-family: 'Montserrat', sans-serif;
-      background-color:#081858;
+      background-image: linear-gradient(to right, #ffd760de,#f8635ee0 );;
       border-radius: 20px;
-      color: #FFFFFF;
+      color: #000000;
     }
 
     .features h1{
@@ -423,7 +423,7 @@
       margin-bottom: -3rem;
     }
     .features .feature-cards .feat{
-      margin: 5rem;
+      margin: 4rem;
     }
     .features .feature-cards img{
       height: 18vh;
@@ -436,6 +436,7 @@
     .features .feature-cards p{
       font-size: 14px;
       text-align: center;
+      font-weight: 500;
     }
     .testimonials{
       margin: 25vh 0 5vh 0 ;
@@ -676,7 +677,7 @@
     }
     .contact-form .contact-text{
       position: absolute;
-      top:110px;
+      top:80px;
       left:40px;
       
       width: 50%;
@@ -684,6 +685,7 @@
 
     .contact-form .contact-text h3{
       font-weight: 900;
+      font-size: 36px;
     }
     input, select, textarea{
       color: #ff0000;
@@ -691,24 +693,16 @@
     .contact-form .contact-img1{
       position: absolute;
       z-index: 1;
-      top:80vh;
+      top:30vh;
+      left:-5vh;
     }
     .contact-form .contact-img1 img{
-      height: 25vh;
-      width: 25vh;
+      height: 90vh;
+      width: 90vh;
     }
-    .contact-form .contact-img2{
-      position: absolute;
-      z-index: 1;
-      top:70vh;
-      left:35vh;
-    }
-    .contact-form .contact-img2 img{
-      height: 30vh;
-      width: 40vh;
-    }
+    
     .contact-form .form-heading{
-      margin: 16vh 0;
+      margin: 12vh 0 16vh 0;
       padding-right: 10vh;
       
     }
@@ -725,7 +719,7 @@
 
     .form-details{
       /* float: right; */
-      margin-top: 0vh;
+      margin-top: 8vh;
      
     }
 
@@ -1194,64 +1188,82 @@
       padding: 6px;
   
     }
-  
+    .coursespage-section{
+      background-color: #b4b4b436;
+      padding-bottom: 5vh;
+    }
+    .coursespage-section .course-box{
+      padding-left:2vh ;
+      background-color: #ffffff;
+    }
     .coursespage-section h3{
       color: #D75B5F;
       font-weight: 700;
       margin: 25vh 0 0 0;
-    }
-    .coursespage-section .block1{
-      height: 400px;
-      background-color: #DF8E97;
-      border-radius: 20px;
-      width: 100%;
-      position: relative;
-      z-index: -1;
-      margin: 10vh 0;
-    }
-    .coursespage-section  .yellow-circle{
-      position: absolute;
-      height: 750px;
-      width: 750px;
-    border-radius: 50%;
-    background-color: #F4CA76;
-    z-index: 2;
-    top:-100px;
-    left:-240px;
-    }
-    .coursespage-section  .yellow-circle p{
-      position: absolute;
-      z-index: 4;
-      top:20px;
-      color: #030229;
-    }
-    .coursespage-section  .yellow-circle-para{
-      position: absolute;
-      z-index: 4;
-      top:150px;
-      left:50px;
-      color: white;
-      font-size: 30px;
-      font-weight: 600;
-      width: 25%;
-    }
-    .coursespage-section  .yellow-circle-para-right{
-      position: absolute;
-      z-index: 4;
-      top:230px;
-      left:80px;
-      color: white;
-      font-size: 30px;
-      font-weight: 600;
-      width: 40%;
-    }
-    .coursespage-section  .yellow-circle-para-right p{
+      padding: 5vh;
       
-      color: white;
     }
-    .coursespage-section .right-circle{
-      top:-100px;
-    left:740px;
+    .coursespage-section h4{
+      text-align: left;
+    }
+    .coursespage-section .card-head{
+      display: flex;
+      margin-top: 5vh;
+      padding-right: 2vh;
+    }
+    .coursespage-section .card-head .headers{
+      padding-right: 5vh;
+    }
+    .coursespage-section .headers i{
+      background-color: #F4CA76;
+      height: 45px;
+      width: 45px;
+      border-radius: 50%;
+      padding: 1vh;
+      font-size: 28px;
+
+    }
+    .course-info{
+      margin-top: 5vh;
+      padding-left: 5vh;
+      text-align: left;
+    }
+    .course-info h6{
+      padding-bottom: 1vh;
+      font-weight: 700;
+    }
+    .course-info i{
+      padding-right: 1vh;
+      font-size: 22px;
+      color: #D75B5F;
+    }
+    .course-box{
+      padding: 5vh;
+      margin: 5vh;
+    }
+    .course-box .course-buttons{
+      display: flex;
+      justify-content: left;
+    }
+   .course-box button{
+        border-radius: 3px;
+        background-color: white;
+        border: 2px solid #081858;
+        color: #081858;
+        padding: 1vh;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-right: 5vh;
+        font-size: 14px;
+   }
+  
+    .coursespage-section ul{
+      border-left: 1px solid #a6a1a193;
+      padding-left: 2vh;
+
+    }
+    hr.solid {
+      border-top: 1px solid #ad8a8a;
     }
     .nfl{
       display: none;
@@ -1315,6 +1327,7 @@
       font-size: 12px;
       font-weight: 600;
       font-style: italic;
+      text-align: center;
       
     }
     .feature-block button{
@@ -1328,6 +1341,51 @@
       border-radius: 20px;
       width: 40%;
       margin: 2rem auto;
+    }
+    .talkFeature{
+      margin-top: 20vh;
+      margin-bottom: -10vh;
+    }
+    .talkFeature h2 {
+      font-weight: 700;
+      font-size: 70px;
+      color: #D75B5F;
+     
+    }
+    .talkFeature span{
+      font-size: 28px;
+    }
+    .talkFeature h4 {
+      font-weight: 600;
+     padding-top: 1vh;
+      color: #D75B5F;
+      
+      font-size: 38px;
+    }
+    .talkFeature button{
+      background-image: linear-gradient(to right,#F4CA76 40%, #EE7B77);
+      padding: 2vh;
+      margin: 5vh 0 3vh 0;
+      border-radius: 10px;
+      border: none;
+
+    }
+    .talkFeature button a{
+      color: #081858;
+      color: #030229c1;
+      font-weight: 600;
+      text-transform: capitalize;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .talkFeature button a i{
+     padding-right: 1vh; 
+     font-size: 20px;
+    }
+    .arrow{
+     margin-top: 3vh;
+      font-size: 60px;
+      color: #081858;
     }
     footer{
       
@@ -1808,9 +1866,7 @@ text-align: center;
       .courses-feature-head{
         text-align: center;
       }
-      .courses-section-head h3{
-        text-align: center;
-      }
+
      
       .coursespage-section  .yellow-circle{
         left:10px;
@@ -1875,6 +1931,7 @@ text-align: center;
       .feature-block button{
         width: 50%;
       }
+      
         footer{
           margin-top: 10vh;
           display: flex;
