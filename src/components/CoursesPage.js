@@ -66,7 +66,13 @@ export default function CoursesPage() {
           <h4>Foundation Course</h4>
           <div className="card-head">
             <div className="headers">
-              <div style={{ display: "flex", justifyContent: "left" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "left",
+                  alignItems: "center",
+                }}
+              >
                 <i class="fa-solid fa-book-open-reader"></i>
                 <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
                   <small>
@@ -78,7 +84,13 @@ export default function CoursesPage() {
               </div>
             </div>
             <div className="headers">
-              <div style={{ display: "flex", justifyContent: "left" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "left",
+                  alignItems: "center",
+                }}
+              >
                 <i class="fa-solid fa-award"></i>
                 <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
                   <small>
@@ -90,12 +102,16 @@ export default function CoursesPage() {
               </div>
             </div>
             <div className="headers">
-              <div style={{ display: "flex", justifyContent: "left" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "left",
+                  alignItems: "center",
+                }}
+              >
                 <i class="fa-solid fa-file-pdf"></i>
                 <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
                   <small>
-                    For
-                    <br />
                     <a href={Document} download="document" target="_blank">
                       Download Course Details
                     </a>
@@ -159,7 +175,13 @@ export default function CoursesPage() {
           <h4>Foundation Course</h4>
           <div className="card-head">
             <div className="headers">
-              <div style={{ display: "flex", justifyContent: "left" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "left",
+                  alignItems: "center",
+                }}
+              >
                 <i class="fa-solid fa-book-open-reader"></i>
                 <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
                   <small>
@@ -171,7 +193,13 @@ export default function CoursesPage() {
               </div>
             </div>
             <div className="headers">
-              <div style={{ display: "flex", justifyContent: "left" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "left",
+                  alignItems: "center",
+                }}
+              >
                 <i class="fa-solid fa-award"></i>
                 <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
                   <small>
@@ -183,12 +211,16 @@ export default function CoursesPage() {
               </div>
             </div>
             <div className="headers">
-              <div style={{ display: "flex", justifyContent: "left" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "left",
+                  alignItems: "center",
+                }}
+              >
                 <i class="fa-solid fa-file-pdf"></i>
                 <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
                   <small>
-                    For
-                    <br />
                     <a href={Document} download="document" target="_blank">
                       Download Course Details
                     </a>
@@ -252,7 +284,13 @@ export default function CoursesPage() {
           <h4>Foundation Course</h4>
           <div className="card-head">
             <div className="headers">
-              <div style={{ display: "flex", justifyContent: "left" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "left",
+                  alignItems: "center",
+                }}
+              >
                 <i class="fa-solid fa-book-open-reader"></i>
                 <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
                   <small>
@@ -264,7 +302,13 @@ export default function CoursesPage() {
               </div>
             </div>
             <div className="headers">
-              <div style={{ display: "flex", justifyContent: "left" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "left",
+                  alignItems: "center",
+                }}
+              >
                 <i class="fa-solid fa-award"></i>
                 <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
                   <small>
@@ -276,12 +320,16 @@ export default function CoursesPage() {
               </div>
             </div>
             <div className="headers">
-              <div style={{ display: "flex", justifyContent: "left" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "left",
+                  alignItems: "center",
+                }}
+              >
                 <i class="fa-solid fa-file-pdf"></i>
                 <div style={{ textAlign: "left", paddingLeft: "1vh" }}>
                   <small>
-                    For
-                    <br />
                     <a href={Document} download="document" target="_blank">
                       Download Course Details
                     </a>

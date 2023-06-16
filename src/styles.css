@@ -970,7 +970,7 @@
     .coursespage-section h3{
     color: #D75B5F;
     font-weight: 700;
-    margin: 25vh 0 0 0;
+   
     padding: 5vh;   
     }
     .coursespage-section h4{
@@ -978,6 +978,7 @@
     }
     .coursespage-section .card-head{
     display: flex;
+    align-items: center;
     margin-top: 5vh;
     padding-right: 2vh;
     }
@@ -1276,7 +1277,7 @@
     h1{
     text-align: center;
     }
-    .whatWeDo, .course-cards, .feature-cards, .contact-form, .team-card, .upper-half, .test-card, .t1, .block1, .footer-col{
+    .whatWeDo, .course-cards, .feature-cards, .contact-form, .team-card, .upper-half, .test-card, .t1, .block1, .coursespage-section, .card-head,.course-buttons, .footer-col{
 
       display: flex;
       flex-direction: column;
@@ -1474,7 +1475,7 @@
 
     }
     .aboutUs .head-text .aboutUs-para{
-    margin: 50vh 0 0 0;
+    margin: 100vh 0 0 0;
     z-index:2;
     position: absolute;
     }
@@ -1497,7 +1498,8 @@
     }
 
     .aboutUs-rect{
-    margin-top: 0vh;
+    margin-top:25vh;
+    margin-bottom: 190vh;
     }
     .aboutUs-rect img{
     display: none;
@@ -1572,6 +1574,23 @@
     margin-top: 20vh;
     width: 100%;
     }
+    .course-box button{
+      font-size: 14px;
+      margin-bottom: 2vh;
+      margin-right: 0;
+    }
+    .coursespage-section .headers{
+      width: 100%;
+    }
+    .coursespage-section .headers i{
+      font-size: 24px;
+    }
+    .coursespage-section .headers small{
+      white-space: nowrap;
+    }
+    .talkFeature h2{
+      font-size: 50px;
+    }
     .fl{
     display: none;
     }
@@ -1579,52 +1598,10 @@
     text-align: center;
     }
 
-
-    .coursespage-section  .yellow-circle{
-    left:10px;
-    width: 200px;
-    height: 200px;
-    }
-    .coursespage-section .block1{
-    width: 100%;
-    }
-    .coursespage-section  .yellow-circle-para{
-    width: 100%;
-    position: relative;
-    }
-    .coursespage-section ,.yellow-circle-para-right{
-    width: 100%;
-    position: relative;
-    margin:2vh auto;
-
+    .courses-section-head{
+      margin-top: 50vh;
     }
 
-    .coursespage-section .courses-para {
-    width: 100%;
-    margin: 2vh auto;
-
-    }
-    .coursespage-section .left-para{
-    width: 100%;
-    margin:2vh auto
-    }
-    .coursespage-section .block1{
-
-    height: 480px;
-    }
-    .coursespage-section .courses-para p{
-    font-size: 18px;
-    }
-    .coursespage-section  .yellow-circle-para{
-    top:0;
-    left:0;
-    font-size: 24px;
-    }
-    .coursespage-section  .yellow-circle-para-right{
-    top:0;
-    left:0;
-    width: 100%;
-    }
     .courses-feature-head h1{
     font-size: 30px;
     padding-top: 2vh;

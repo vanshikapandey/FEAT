@@ -106,17 +106,6 @@ export default function About() {
           </div>
         </div>
       </div>{" "}
-      <div className="timeline">
-        <div className="timeline-head col-sm-12">TIMELINE</div>
-        <div className="timeline-img col-sm-12">
-          <img src={timeline} />
-          <div className="gray-box-1">Event-1</div>
-          <div className="gray-box-2">Event-2</div>
-          <div className="gray-box-3">Event-3</div>
-          <div className="gray-box-4">Event-4</div>
-          <div className="gray-box-5">Event-5</div>
-        </div>
-      </div>
       {/* <Team /> */}
       <Footer />
     </div>
