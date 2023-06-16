@@ -38,17 +38,26 @@ export default function Footer() {
               <ul>
                 <li>
                   <a href="https://www.facebook.com/feateducation">
-                    <i className="fa fa-facebook"></i>
+                    <i
+                      className="fa-brands fa-facebook-f"
+                      style={{ color: "#ffffff;" }}
+                    ></i>
                   </a>
                 </li>
                 <li>
                   <a href="https://in.linkedin.com/company/feateducation">
-                    <i className="fa fa-linkedin"></i>
+                    <i
+                      className="fa-brands fa-linkedin-in"
+                      style={{ color: "#ffffff;" }}
+                    ></i>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.instagram.com/feateducation/?hl=en">
-                    <i className="fa fa-instagram"></i>
+                    <i
+                      className="fa-brands fa-instagram"
+                      style={{ color: "#ffffff;" }}
+                    ></i>
                   </a>
                 </li>
               </ul>

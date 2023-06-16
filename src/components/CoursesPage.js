@@ -5,9 +5,18 @@ import Form from "./FormSubmission";
 import aboutUsImg from "../assets/About-img.png";
 import certi from "../assets/Certificate.svg";
 import ContactForm from "./ContactForm";
-// import courses from "../assets/Courses.png";
+import Document from "../assets/files/Document.pdf";
 
 export default function CoursesPage() {
+  const showInMap = () => {
+    window.open(
+      "https://maps.google.com?q=" +
+        29.051748859585526 +
+        "," +
+        77.71545460693997
+    );
+  };
+
   return (
     <div>
       <Navbar />
@@ -87,7 +96,7 @@ export default function CoursesPage() {
                   <small>
                     For
                     <br />
-                    <a href="./src/BD J.D.pdf" download>
+                    <a href={Document} download="document" target="_blank">
                       Download Course Details
                     </a>
                   </small>
@@ -139,8 +148,11 @@ export default function CoursesPage() {
             </div>
           </div>
           <div className="course-buttons">
-            <button>Request a call back</button>
-            <button>Find Center Location</button>
+            <a href="#callback">
+              {" "}
+              <button>Request a call back</button>
+            </a>
+            <button onClick={showInMap}>Find Center Location</button>
           </div>
         </div>
         <div className="course-box">
@@ -177,7 +189,7 @@ export default function CoursesPage() {
                   <small>
                     For
                     <br />
-                    <a href="src/BD J.D.pdf" download>
+                    <a href={Document} download="document" target="_blank">
                       Download Course Details
                     </a>
                   </small>
@@ -229,8 +241,11 @@ export default function CoursesPage() {
             </div>
           </div>
           <div className="course-buttons">
-            <button>Request a call back</button>
-            <button>Find Center Location</button>
+            <a href="#callback">
+              {" "}
+              <button>Request a call back</button>
+            </a>
+            <button onClick={showInMap}>Find Center Location</button>
           </div>
         </div>
         <div className="course-box">
@@ -267,7 +282,7 @@ export default function CoursesPage() {
                   <small>
                     For
                     <br />
-                    <a href="./src/BD J.D.pdf" download>
+                    <a href={Document} download="document" target="_blank">
                       Download Course Details
                     </a>
                   </small>
@@ -319,8 +334,10 @@ export default function CoursesPage() {
             </div>
           </div>
           <div className="course-buttons">
-            <button>Request a call back</button>
-            <button>Find Center Location</button>
+            <a href="#callback">
+              <button>Request a call back</button>
+            </a>
+            <button onClick={showInMap}>Find Center Location</button>
           </div>
         </div>
       </div>
@@ -358,8 +375,10 @@ export default function CoursesPage() {
 
         <i className="fa-solid fa-arrow-down arrow"></i>
       </div>
-      <ContactForm />
 
+      <div id="callback">
+        <ContactForm />
+      </div>
       <Footer />
     </div>
   );

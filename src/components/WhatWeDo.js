@@ -1,25 +1,80 @@
-// import whatwedo from "../assets/whatwedo.png";
+import whatwedo from "../assets/Avatar.svg";
 import React from "react";
 export default function() {
   return (
     <div className="whatWeDo">
-      <div className="col-md-7 col-sm-12 text">
-        <p>
-          FEAT acknowledges the uniqueness of every child and strives to mold
-          them into a person true to their character. The institute understands
-          the value of the process of learning and makes the journey
-          knowledge-centric, challenging the result-centric approach of the
-          Indian education system. At FEAT, they guide students to be
-          knowledge-oriented rather than result-oriented, encouraging them to
-          make the process of attaining knowledge a joyful journey that lasts a
-          lifetime.
-        </p>
-      </div>
-      {/* <div className="col-md-1"></div> */}
-      <div className="col-md-4 col-sm-12 whatWeDo-img">
-        {/* <img src={whatwedo} alt="" /> */}
-        <div className="borderU"></div>
-        <h1>What we do?</h1>
+      <div>
+        <img src={whatwedo} />
+        <div
+          className="feature-box"
+          style={{
+            top: "70px",
+            right: "300px",
+            backgroundColor: "rgb(38,164,153)",
+          }}
+        >
+          <h6>Lorem Ipsum</h6>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's
+          </p>
+        </div>
+        <div
+          className="feature-box"
+          style={{
+            top: "480px",
+            right: "300px",
+            backgroundColor: "rgb(125,179,67)",
+          }}
+        >
+          <h6>Lorem Ipsum</h6>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's
+          </p>
+        </div>
+        <div
+          className="feature-box"
+          style={{
+            top: "600px",
+            left: "440px",
+            backgroundColor: "rgb(253,191,46)",
+          }}
+        >
+          <h6>Lorem Ipsum</h6>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's
+          </p>
+        </div>
+        <div
+          className="feature-box"
+          style={{
+            top: "300px",
+            left: "260px",
+            backgroundColor: "rgb(245,81,28)",
+          }}
+        >
+          <h6>Lorem Ipsum</h6>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's
+          </p>
+        </div>
+        <div
+          className="feature-box"
+          style={{
+            top: "-80px",
+            left: "500px",
+            backgroundColor: "rgb(176,180,43)",
+          }}
+        >
+          <h6>Lorem Ipsum</h6>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's
+          </p>
+        </div>
       </div>
     </div>
   );
