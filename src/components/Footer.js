@@ -22,7 +22,7 @@ export default function Footer() {
             </div>
             <div className="contacts">
               <p style={{ fontWeight: "600" }}>Address</p>
-              <p style={{ fontWeight: "500" }}> U26C/6, White town Houses,</p>
+              <p style={{ fontWeight: "500" }}> U26C/6, White town Houses</p>
               <p style={{ fontWeight: "500" }}> U block, DLF Phase 3,</p>
               <p style={{ fontWeight: "500" }}> Meerut, Uttar Pradesh</p>
             </div>

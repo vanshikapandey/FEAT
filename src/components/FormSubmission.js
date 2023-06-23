@@ -56,7 +56,7 @@ export default function() {
               name="email"
             />
             {error && email.length <= 0 ? (
-              <label>Email cannot be empty</label>
+              <span>Email cannot be empty</span>
             ) : (
               ""
             )}
@@ -72,11 +72,7 @@ export default function() {
               onChange={(e) => setName(e.target.value)}
               name="name"
             />
-            {error && name.length <= 0 ? (
-              <label>Name cannot be empty</label>
-            ) : (
-              ""
-            )}
+            {error && name.length <= 0 ? <span>Name cannot be empty</span> : ""}
           </div>
           <div className="form-group">
             <label for="inputPhone">Phone No.</label>
@@ -90,7 +86,7 @@ export default function() {
               name="phone_no"
             />
             {error && phoneno.length != 10 ? (
-              <label>Phone number must contain 10 digits</label>
+              <span>Phone number must contain 10 digits</span>
             ) : (
               ""
             )}

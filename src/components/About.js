@@ -3,9 +3,13 @@ import Footer from "./Footer";
 import React from "react";
 import rectangle from "../assets/Diagonal-Rect.png";
 import aboutUsImg from "../assets/About-img.png";
-import timeline from "../assets/timeline.png";
 import Team from "../components/Team";
 import certi from "../assets/Certificate.svg";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 
 export default function About() {
   return (
@@ -105,7 +109,112 @@ export default function About() {
             </div>
           </div>
         </div>
-      </div>{" "}
+      </div>
+      <div className="timeline">
+        <h2>TIMELINE</h2>
+
+        <VerticalTimeline lineColor={"rgb(229,230,232)"}>
+          <VerticalTimelineElement
+            visible="true"
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(125,179,67)", color: "#fff" }}
+            contentArrowStyle={{
+              borderRight: "15px solid  #fff",
+              left: "480px",
+            }}
+            dateClassName={"dateClass"}
+            iconStyle={{ background: "rgb(125,179,67)", color: "#0000" }}
+            // icon={<WorkIcon />}
+          >
+            <h5>2011 - present</h5>
+            <h3 className="vertical-timeline-element-title">
+              Creative Director
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+            <p>
+              Creative Direction, User Experience, Visual Design, Project
+              Management, Team Leading
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(38,164,153)", color: "#fff" }}
+            contentArrowStyle={{
+              borderRight: "15px solid  #fff",
+              right: "480px",
+            }}
+            iconStyle={{ background: "rgb(38,164,153)", color: "#fff" }}
+            // icon={<WorkIcon />}
+          >
+            <h5>2010 - 2011</h5>
+            <h3 className="vertical-timeline-element-title">
+              Creative Director
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+            <p>
+              Creative Direction, User Experience, Visual Design, Project
+              Management, Team Leading
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(2,204,156)", color: "#fff" }}
+            contentArrowStyle={{
+              borderRight: "15px solid  #fff",
+              left: "480px",
+            }}
+            date=""
+            iconStyle={{ background: "rgb(2,204,156)", color: "#fff" }}
+            // icon={<WorkIcon />}
+          >
+            <h5>2008 - 2010</h5>
+            <h3 className="vertical-timeline-element-title">Web Designer</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Los Angeles, CA
+            </h4>
+            <p>User Experience, Visual Design</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(176,180,43)", color: "#fff" }}
+            contentArrowStyle={{
+              borderRight: "15px solid  #fff",
+              right: "480px",
+            }}
+            date=""
+            iconStyle={{ background: "rgb(176,180,43)", color: "#fff" }}
+            // icon={<WorkIcon />}
+          >
+            <h5>2006 - 2008</h5>
+            <h3 className="vertical-timeline-element-title">Web Designer</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              San Francisco, CA
+            </h4>
+            <p>User Experience, Visual Design</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(80,88,173)", color: "#fff" }}
+            contentArrowStyle={{
+              borderRight: "15px solid  #fff",
+              left: "480px",
+            }}
+            date=""
+            iconStyle={{ background: "rgb(80,88,173)", color: "#fff" }}
+            // icon={<WorkIcon />}
+          >
+            <h5>2010 - 2011</h5>
+            <h3 className="vertical-timeline-element-title">Art Director</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              San Francisco, CA
+            </h4>
+            <p>
+              Creative Direction, User Experience, Visual Design, SEO, Online
+              Marketing
+            </p>
+          </VerticalTimelineElement>
+        </VerticalTimeline>
+      </div>
       {/* <Team /> */}
       <Footer />
     </div>
