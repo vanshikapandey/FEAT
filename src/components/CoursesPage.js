@@ -8,15 +8,6 @@ import ContactForm from "./ContactForm";
 import Document from "../assets/files/Document.pdf";
 
 export default function CoursesPage() {
-  const showInMap = () => {
-    window.open(
-      "https://maps.google.com?q=" +
-        29.051748859585526 +
-        "," +
-        77.71545460693997
-    );
-  };
-
   return (
     <div>
       <Navbar />
@@ -168,7 +159,10 @@ export default function CoursesPage() {
               {" "}
               <button>Request a call back</button>
             </a>
-            <button onClick={showInMap}>Find Center Location</button>
+            <a href="https://www.google.com/maps/place/FEAT:+THE+CAREER+INSTITUTE+-+IIT+JEE,+NEET,+Olympiads,+CBSE/@29.0517489,77.7132659,17z/data=!4m12!1m5!3m4!2zMjnCsDAzJzA2LjMiTiA3N8KwNDInNTUuNiJF!8m2!3d29.0517489!4d77.7154546!3m5!1s0x390c6f4927f90c5d:0x82059f3f0d07b03d!8m2!3d29.0516154!4d77.7154147!16s%2Fg%2F11jkbpy_5w?entry=ttu">
+              {" "}
+              <button>Find Center Location</button>
+            </a>
           </div>
         </div>
         <div className="course-box">
@@ -277,7 +271,10 @@ export default function CoursesPage() {
               {" "}
               <button>Request a call back</button>
             </a>
-            <button onClick={showInMap}>Find Center Location</button>
+            <a href="https://www.google.com/maps/place/FEAT:+THE+CAREER+INSTITUTE+-+IIT+JEE,+NEET,+Olympiads,+CBSE/@29.0517489,77.7132659,17z/data=!4m12!1m5!3m4!2zMjnCsDAzJzA2LjMiTiA3N8KwNDInNTUuNiJF!8m2!3d29.0517489!4d77.7154546!3m5!1s0x390c6f4927f90c5d:0x82059f3f0d07b03d!8m2!3d29.0516154!4d77.7154147!16s%2Fg%2F11jkbpy_5w?entry=ttu">
+              {" "}
+              <button>Find Center Location</button>
+            </a>
           </div>
         </div>
         <div className="course-box">
@@ -385,7 +382,10 @@ export default function CoursesPage() {
             <a href="#callback">
               <button>Request a call back</button>
             </a>
-            <button onClick={showInMap}>Find Center Location</button>
+            <a href="https://www.google.com/maps/place/FEAT:+THE+CAREER+INSTITUTE+-+IIT+JEE,+NEET,+Olympiads,+CBSE/@29.0517489,77.7132659,17z/data=!4m12!1m5!3m4!2zMjnCsDAzJzA2LjMiTiA3N8KwNDInNTUuNiJF!8m2!3d29.0517489!4d77.7154546!3m5!1s0x390c6f4927f90c5d:0x82059f3f0d07b03d!8m2!3d29.0516154!4d77.7154147!16s%2Fg%2F11jkbpy_5w?entry=ttu">
+              {" "}
+              <button>Find Center Location</button>
+            </a>
           </div>
         </div>
       </div>

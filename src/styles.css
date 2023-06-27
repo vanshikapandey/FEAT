@@ -250,11 +250,11 @@
     }
 
     .whatWeDo .feature-box{
-    width: 12%;
+    width: 15%;
     position: absolute;
     color: white;
-    font-size: 12px;
-    padding: 1vh 2vh;
+    font-size: 16px;
+    padding: 3vh 2vh;
     border-radius: 10px;
 
     }
@@ -314,7 +314,7 @@
     .features{
     margin-top: 5rem;
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(to right, #ffd760de,#f8635ee0 );;
+    background-image: linear-gradient(to right, #ffd760de,#f8635ee0 );
     border-radius: 20px;
     color: #000000;
     }
@@ -330,17 +330,20 @@
     margin-bottom: -3rem;
     }
     .features .feature-cards .feat{
-    margin: 4rem;
+    margin: 4rem 7rem;
     }
     .features .feature-cards img{
-    height: 18vh;
-    width: 24vh;
+    height: 25vh;
+    width: 30vh;
+    padding-bottom: 1vh;
     }
     .features .feature-cards h4{
     font-weight: 700;
+    font-size: 30px;
+    padding: 1vh 0;
     }
     .features .feature-cards p{
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
     font-weight: 500;
     }
@@ -382,7 +385,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#081858 ;
+    background-image: linear-gradient(to bottom, #ffd760de,#f8635ee0 );
     padding: 5vh 0vh;
     margin: 0vh 5vh;
     border-radius: 20px;
@@ -635,8 +638,8 @@
     margin-left: 10vh; 
     }
     .aboutUs .head-text .aboutUs-para{
-    margin-left: 45vh;
-    margin-top: 10vh;
+    margin-left: 40vh;
+    margin-top: 5vh;
     z-index:3;
     position: absolute;
     }
@@ -987,7 +990,7 @@
     }
     /*************************************************Courses Page********************************************************/
     .coursespage-section{
-    background-color: #b4b4b436;
+    background-color: #f3d57d84;
     padding-bottom: 5vh;
     }
     .coursespage-section .course-box{
