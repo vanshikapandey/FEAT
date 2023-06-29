@@ -202,7 +202,7 @@ export default function Carousels() {
                 <br />
                 <br />
                 <span>
-                  -Aditya Ahlawat <br /> 97.01%ile JEE-MAIN (2023),
+                  -Aditya Ahlawat <br /> 97.01%ile JEE-MAIN (2023)
                 </span>
               </div>
             </div>

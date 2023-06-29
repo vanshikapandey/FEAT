@@ -1352,7 +1352,7 @@
     margin-top: 10vh;
     }
     .landing-section .head-text{
-    margin: 5rem 0 0 0;
+    margin: 1rem 0 0 0;
     }
     .landing-section .head-text{
     display: flex;
@@ -1407,8 +1407,8 @@
     width: 350px;
     }
     .courses .course-cards img{
-      height: 45vh;
-      width: 45vh;
+      height: 40vh;
+      width: 40vh;
     }
     .features h1{
     font-size: 32px;
@@ -1428,13 +1428,6 @@
     margin-left: 0;
 
     }
-    .t1 img{
-    top: 60px;
-    z-index: 3  ;
-    left:150px;
-    height: 120px;
-    width: 120px;
-    }
     .t1 i{
     display: none;
     }
@@ -1445,14 +1438,16 @@
     margin: 3vh auto;
     }
     .t1 img{
-    position: absolute;
-    top:20;
+     height: 120px;
+    width: 120px;
+    margin: 0 auto;
     }
+   
     #paper{
     width: 300px;
-    height: 520px;
+    height: 540px;
     margin: 2vh;
-    padding-top: 20vh;
+
 
     }
     .t1 .quotes{
@@ -1494,11 +1489,10 @@
 
     #aboutUs-section .head-text #gradient{
     text-align: center;
-
     }
 
     .aboutUs .head-text{
-    margin-top: -30vh;
+    margin-top: -45vh;
     }
 
     .aboutUs .head-text p{
@@ -1519,12 +1513,10 @@
 
     .upper-half{
     width: 100%;
-    margin-top: 10vh;
     padding: 3vh;
     }
-
     .aboutUs{
-    height: 40vh;
+    height: 30vh;
     margin-top: 0vh;
     }
 
@@ -1600,10 +1592,10 @@
     .parent .image2 .member h2{
     padding-top: 20vh;
     }
+   
     
     .timeline h2{
-      font-size: 50px;
-      margin-top: 15vh;
+      font-size: 65px;
     }
     .courses-section{
     margin-top: 20vh;
@@ -1613,6 +1605,9 @@
       font-size: 14px;
       margin-bottom: 2vh;
       margin-right: 0;
+    }
+    .coursespage-section{
+      margin-top: 25vh;
     }
     .coursespage-section .headers{
       width: 100%;
@@ -1636,9 +1631,7 @@
     text-align: center;
     }
 
-    .courses-section-head{
-      margin-top: 25vh;
-    }
+   
 
     .courses-feature-head h1{
     font-size: 30px;
