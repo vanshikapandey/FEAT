@@ -49,12 +49,37 @@
     }
     .navigation-menu li a{
     text-decoration: none;
-    display: block;
+    /* display: block; */
     width: 100%;
     font-weight: 700;
     font-size: 20px;
     line-height: 40px;
     color: #081858;  
+    display: inline-block;
+    position: relative;
+    }
+    .navigation-menu li a::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #081858;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+    
+    .navigation-menu li a:hover::after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+    .navigation-menu li a:active{
+      background-color: #081858;
+      color: white;
+      padding: 1vh;
+      font-weight: 500;
     }
     .hamburger {
     border: 0;
@@ -506,6 +531,19 @@
     .row::-webkit-scrollbar-thumb:hover {
     background-image: linear-gradient(to bottom, #ffd1459a,#f8635e52 );
     }
+
+    .row::-moz-scrollbar {
+      width: 15px;
+      }
+  
+      .row::-moz-scrollbar-thumb {
+      border-radius: 10px;
+      background-image: linear-gradient(to bottom, #ffd145,#f8635e );
+      }
+  
+      .row::-moz-scrollbar-thumb:hover {
+      background-image: linear-gradient(to bottom, #ffd1459a,#f8635e52 );
+      }
 
     .column {
     -ms-flex: 25%; 
@@ -1305,6 +1343,7 @@
     }
     }
     @media screen and (max-width: 768px) {
+      
     h1{
     text-align: center;
     }
@@ -1523,6 +1562,7 @@
     .aboutUs-rect{
     margin-top:10vh;
     margin-bottom: 190vh;
+    width: 100%;
     }
     .aboutUs-rect img{
     display: none;
@@ -1676,6 +1716,9 @@
     .footer-head img{
     display: none;
     }
+    .logo-col p{
+      text-align: center;
+    }
     .borderL .footer-column ul{
     margin:  auto;
     }
@@ -1683,3 +1726,8 @@
     text-align: center;
     }
     }
+    @media screen and (max-width: 1024px) {
+
+     
+    }
+
